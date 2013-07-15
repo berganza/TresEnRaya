@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D46409017936A8300B5164B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D46408F17936A8300B5164B /* UIKit.framework */; };
+		7D46409217936A8300B5164B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D46409117936A8300B5164B /* Foundation.framework */; };
+		7D46409417936A8300B5164B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D46409317936A8300B5164B /* CoreGraphics.framework */; };
+		7D46409A17936A8300B5164B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7D46409817936A8300B5164B /* InfoPlist.strings */; };
+		7D46409C17936A8300B5164B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D46409B17936A8300B5164B /* main.m */; };
+		7D4640A017936A8300B5164B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D46409F17936A8300B5164B /* AppDelegate.m */; };
+		7D4640A217936A8300B5164B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640A117936A8300B5164B /* Default.png */; };
+		7D4640A417936A8300B5164B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640A317936A8300B5164B /* Default@2x.png */; };
+		7D4640A617936A8300B5164B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640A517936A8300B5164B /* Default-568h@2x.png */; };
+		7D4640A917936A8300B5164B /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640A717936A8300B5164B /* MainStoryboard_iPhone.storyboard */; };
+		7D4640AC17936A8300B5164B /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640AA17936A8300B5164B /* MainStoryboard_iPad.storyboard */; };
+		7D4640AF17936A8300B5164B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D4640AE17936A8300B5164B /* ViewController.m */; };
+		7D4640B617936AB700B5164B /* tablero.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640B517936AB700B5164B /* tablero.png */; };
+		7D4640BA17936AC100B5164B /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640B917936AC100B5164B /* X.png */; };
+		7D4640C217937FDE00B5164B /* O.png in Resources */ = {isa = PBXBuildFile; fileRef = 7D4640C117937FDE00B5164B /* O.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D46408C17936A8300B5164B /* TresEnRaya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TresEnRaya.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D46408F17936A8300B5164B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7D46409117936A8300B5164B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7D46409317936A8300B5164B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7D46409717936A8300B5164B /* TresEnRaya-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TresEnRaya-Info.plist"; sourceTree = "<group>"; };
+		7D46409917936A8300B5164B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7D46409B17936A8300B5164B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7D46409D17936A8300B5164B /* TresEnRaya-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TresEnRaya-Prefix.pch"; sourceTree = "<group>"; };
+		7D46409E17936A8300B5164B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7D46409F17936A8300B5164B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7D4640A117936A8300B5164B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7D4640A317936A8300B5164B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7D4640A517936A8300B5164B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7D4640A817936A8300B5164B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		7D4640AB17936A8300B5164B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		7D4640AD17936A8300B5164B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7D4640AE17936A8300B5164B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7D4640B517936AB700B5164B /* tablero.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tablero.png; sourceTree = "<group>"; };
+		7D4640B917936AC100B5164B /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = "<group>"; };
+		7D4640C117937FDE00B5164B /* O.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = O.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D46408917936A8300B5164B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D46409017936A8300B5164B /* UIKit.framework in Frameworks */,
+				7D46409217936A8300B5164B /* Foundation.framework in Frameworks */,
+				7D46409417936A8300B5164B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D46408317936A8300B5164B = {
+			isa = PBXGroup;
+			children = (
+				7D4640C117937FDE00B5164B /* O.png */,
+				7D4640B917936AC100B5164B /* X.png */,
+				7D4640B517936AB700B5164B /* tablero.png */,
+				7D46409517936A8300B5164B /* TresEnRaya */,
+				7D46408E17936A8300B5164B /* Frameworks */,
+				7D46408D17936A8300B5164B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D46408D17936A8300B5164B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D46408C17936A8300B5164B /* TresEnRaya.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D46408E17936A8300B5164B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D46408F17936A8300B5164B /* UIKit.framework */,
+				7D46409117936A8300B5164B /* Foundation.framework */,
+				7D46409317936A8300B5164B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D46409517936A8300B5164B /* TresEnRaya */ = {
+			isa = PBXGroup;
+			children = (
+				7D46409E17936A8300B5164B /* AppDelegate.h */,
+				7D46409F17936A8300B5164B /* AppDelegate.m */,
+				7D4640A717936A8300B5164B /* MainStoryboard_iPhone.storyboard */,
+				7D4640AA17936A8300B5164B /* MainStoryboard_iPad.storyboard */,
+				7D4640AD17936A8300B5164B /* ViewController.h */,
+				7D4640AE17936A8300B5164B /* ViewController.m */,
+				7D46409617936A8300B5164B /* Supporting Files */,
+			);
+			path = TresEnRaya;
+			sourceTree = "<group>";
+		};
+		7D46409617936A8300B5164B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7D46409717936A8300B5164B /* TresEnRaya-Info.plist */,
+				7D46409817936A8300B5164B /* InfoPlist.strings */,
+				7D46409B17936A8300B5164B /* main.m */,
+				7D46409D17936A8300B5164B /* TresEnRaya-Prefix.pch */,
+				7D4640A117936A8300B5164B /* Default.png */,
+				7D4640A317936A8300B5164B /* Default@2x.png */,
+				7D4640A517936A8300B5164B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D46408B17936A8300B5164B /* TresEnRaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D4640B217936A8300B5164B /* Build configuration list for PBXNativeTarget "TresEnRaya" */;
+			buildPhases = (
+				7D46408817936A8300B5164B /* Sources */,
+				7D46408917936A8300B5164B /* Frameworks */,
+				7D46408A17936A8300B5164B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TresEnRaya;
+			productName = TresEnRaya;
+			productReference = 7D46408C17936A8300B5164B /* TresEnRaya.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D46408417936A8300B5164B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Berganza;
+			};
+			buildConfigurationList = 7D46408717936A8300B5164B /* Build configuration list for PBXProject "TresEnRaya" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D46408317936A8300B5164B;
+			productRefGroup = 7D46408D17936A8300B5164B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D46408B17936A8300B5164B /* TresEnRaya */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D46408A17936A8300B5164B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D46409A17936A8300B5164B /* InfoPlist.strings in Resources */,
+				7D4640A217936A8300B5164B /* Default.png in Resources */,
+				7D4640A417936A8300B5164B /* Default@2x.png in Resources */,
+				7D4640A617936A8300B5164B /* Default-568h@2x.png in Resources */,
+				7D4640A917936A8300B5164B /* MainStoryboard_iPhone.storyboard in Resources */,
+				7D4640AC17936A8300B5164B /* MainStoryboard_iPad.storyboard in Resources */,
+				7D4640B617936AB700B5164B /* tablero.png in Resources */,
+				7D4640BA17936AC100B5164B /* X.png in Resources */,
+				7D4640C217937FDE00B5164B /* O.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D46408817936A8300B5164B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D46409C17936A8300B5164B /* main.m in Sources */,
+				7D4640A017936A8300B5164B /* AppDelegate.m in Sources */,
+				7D4640AF17936A8300B5164B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D46409817936A8300B5164B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D46409917936A8300B5164B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7D4640A717936A8300B5164B /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4640A817936A8300B5164B /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		7D4640AA17936A8300B5164B /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D4640AB17936A8300B5164B /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D4640B017936A8300B5164B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D4640B117936A8300B5164B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D4640B317936A8300B5164B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TresEnRaya/TresEnRaya-Prefix.pch";
+				INFOPLIST_FILE = "TresEnRaya/TresEnRaya-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7D4640B417936A8300B5164B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TresEnRaya/TresEnRaya-Prefix.pch";
+				INFOPLIST_FILE = "TresEnRaya/TresEnRaya-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D46408717936A8300B5164B /* Build configuration list for PBXProject "TresEnRaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4640B017936A8300B5164B /* Debug */,
+				7D4640B117936A8300B5164B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D4640B217936A8300B5164B /* Build configuration list for PBXNativeTarget "TresEnRaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D4640B317936A8300B5164B /* Debug */,
+				7D4640B417936A8300B5164B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D46408417936A8300B5164B /* Project object */;
+}
